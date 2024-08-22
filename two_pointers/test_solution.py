@@ -35,3 +35,6 @@ class TestSolution(unittest.TestCase):
         expected = [[1, 1, 0, 0], [0, 1, 1, 0], [0, 0, 0, 1], [1, 0, 1, 0]]
         result = self.solution.flip_and_invert_image_2(image)
         self.assertEqual(result, expected)
+
+if __name__ == "__main__":
+    unittest.main()

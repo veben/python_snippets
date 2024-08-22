@@ -23,3 +23,6 @@ class TestSolution(unittest.TestCase):
         expected = False
         result = self.solution.hasCycle(head)
         self.assertEqual(result, expected)
+
+if __name__ == "__main__":
+    unittest.main()
