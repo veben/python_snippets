@@ -60,6 +60,12 @@ code python_snippets
 - Run the tests with the configured debugger by pressing `F5`
 
 ## Snippets
-- [ ] [Sliding Windows](sliding_windows/README.md)
-- [ ] [Two Pointers](two_pointers/README.md)
-- [ ] [Hare and Tortoise](hare_and_tortoise/README.md)
+1. [Sliding Windows](sliding_windows/README.md)
+2. [Two Pointers](two_pointers/README.md)
+3. [Hare and Tortoise](hare_and_tortoise/README.md)
+4. [Merge Intervals](merge_intervals/README.md)
+5. [Cyclic Sort](cyclic_sort/README.md)
+6. [In-place reversal of linked list](in-place-reversal-of-linked-list/README.md)
+7. [Tree BFS](tree_bfs/README.md)
+8. [Tree DFS](tree_dfs/README.md)
+9. [Subsets](subsets/README.md)
