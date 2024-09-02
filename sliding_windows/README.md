@@ -15,13 +15,13 @@ Return the number of alternating groups.
 **Note**: that since `colors` represents a circle, the first and the last tiles are considered to be next to each other.
 
 ### Example 1:
-Input: colors = [1,1,1]
-Output: 0
+Input: `colors = [1,1,1]`
+Output: `0`
 
 ### Example 2:
-Input: colors = [0,1,0,0,1]
-Output: 3
+Input: `colors = [0,1,0,0,1]`
+Output: `3`
 
 ### Constraints:
-- 3 <= colors.length <= 100
-- 0 <= colors[i] <= 1
+- `3 <= colors.length <= 100`
+- `0 <= colors[i] <= 1`
