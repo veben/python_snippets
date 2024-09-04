@@ -24,9 +24,23 @@ source venv_3.10.12/bin/activate
 /mnt/c/Users/benoit.veyriere/My Drive/docs/snippets/personal/python_snippets/venv_3.10.12/bin/python
 ```
 - Navigate to a Project Sub-folder:
-- Execute your tests using Python's unittest module:
+
+#### Run the tests with **unitest**
+Execute your tests using Python's unittest module:
 ```sh
 python -m unittest
+```
+
+#### Run the tests with **pytest**
+> pytest can run tests written with unittest
+
+- Install `pytest`:
+```sh
+python -m pip install pytest
+```
+- Run the tests:
+```sh
+pytest
 ```
 
 ### Configuration for VSCode
@@ -59,6 +73,21 @@ code python_snippets
 - Access the Debugger view by pressing `CTRL+SHIFT+d`
 - Run the tests with the configured debugger by pressing `F5`
 
+#### Troubleshooting VSCode Python Package Recognition
+> Issue: VSCode Not Recognizing Newly Installed Packages
+
+If you've installed a package via terminal, but VSCode doesn't recognize it, follow these steps to refresh your environment.
+
+##### Option 1: Restart the Python Language Server
+This method updates VSCode's Python environment:
+1. Open the Command Palette: `Ctrl+Shift+P`
+2. Type "Python: Restart Language Server"
+
+##### Option 2: Reload the VSCode Window
+This method refreshes the entire VSCode environment:
+1. Open the Command Palette: `Ctrl+Shift+P`
+2. Type and select "Developer: Reload Window"
+
 ## Snippets
 1. [Sliding Windows](sliding_windows/README.md)
 2. [Two Pointers](two_pointers/README.md)
@@ -69,3 +98,4 @@ code python_snippets
 7. [Tree BFS](tree_bfs/README.md)
 8. [Tree DFS](tree_dfs/README.md)
 9. [Subsets](subsets/README.md)
+10. [Two Heaps](two_heaps/README.md)

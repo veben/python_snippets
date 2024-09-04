@@ -15,9 +15,9 @@ class Solution:
                 sum += 1
 
         if colors[0] != colors[nb_colors - 1] and colors[0] == colors[nb_colors - 2]:
-            sum +=1
+            sum += 1
 
         if colors[nb_colors - 1] != colors[0] and colors[nb_colors - 1] == colors[1]:
-            sum +=1
+            sum += 1
 
         return sum
