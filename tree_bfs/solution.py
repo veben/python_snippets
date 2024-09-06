@@ -16,9 +16,7 @@ class Solution:
             return []
 
         result = []
-        queue = deque(
-            [root]
-        )  # deque provides O(1) time complexity for append and popleft operations, compared to O(n) for list.pop(0)
+        queue = deque([root])  # deque provides O(1) time complexity for append and popleft operations, compared to O(n) for list.pop(0)
 
         while queue:
             level_size = len(queue)

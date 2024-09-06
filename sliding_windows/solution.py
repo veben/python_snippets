@@ -13,11 +13,11 @@ class Solution:
         for i in range(nb_colors - 2):
             if colors[i] != colors[i + 1] and colors[i] == colors[i + 2]:
                 sum += 1
-
-        if colors[0] != colors[nb_colors - 1] and colors[0] == colors[nb_colors - 2]:
-            sum += 1
-
+        # the first one
         if colors[nb_colors - 1] != colors[0] and colors[nb_colors - 1] == colors[1]:
+            sum += 1
+        # the last one
+        if colors[0] != colors[nb_colors - 1] and colors[0] == colors[nb_colors - 2]:
             sum += 1
 
         return sum

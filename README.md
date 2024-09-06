@@ -23,7 +23,7 @@ source venv_3.10.12/bin/activate
 ❯ which python
 /mnt/c/Users/benoit.veyriere/My Drive/docs/snippets/personal/python_snippets/venv_3.10.12/bin/python
 ```
-- Navigate to a Project Sub-folder:
+- Navigate to a Project Sub-folder
 
 #### Run the tests with **unitest**
 Execute your tests using Python's unittest module:
